@@ -1,0 +1,905 @@
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /*Precarga*/
+  
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff; /* Fondo del preloader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .preloader img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+  }
+  
+  /* Estilo adicional para ocultar el preloader cuando la página está lista */
+  .loaded .preloader {
+    display: none;
+  }
+  
+  
+  /*Header*/
+  
+  /*Navbar */
+  
+  nav {
+      position: fixed !important;
+      top: 0;
+      width: 100%; 
+      z-index: 100; 
+    
+  }
+  
+   /*Transparencia del navbar al hacer scroll */
+  
+  #navbarOrigin.navbar-transparent {
+    background-color: rgba(255, 255, 255, 0.9) !important; 
+  }
+  
+  .logoArte {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    font-size: 40px !important; 
+  }
+  
+   .pestañasMenu>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 30px;
+    color: #222;
+  }
+  
+  .menuShop>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #222;
+  }
+  
+  .menuShop>li>a.muralShop:hover {
+    color: #3AA756;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menuShop>li>a.ilusShop:hover {
+    color: #FABC2D;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menuShop>li>a.paintShop:hover {
+    color: #4578D1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menuShop>li>a.teacherShop:hover {
+    color: #E8453C;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .pestañasMenu>li>a.inicio:hover {
+    color: #3AA756;
+    transition: all 0.3s ease-in-out;
+  }
+  .pestañasMenu>li>a.shop:hover {
+    color: #FABC2D;
+    transition: all 0.3s ease-in-out;
+  }
+  .pestañasMenu>li>a.contact-us:hover {
+    color: #4578D1;
+    transition: all 0.3s ease-in-out;
+  }
+  .pestañasMenu>li>a.about:hover {
+    color: #E8453C;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /*Fin navbar */
+  
+  /*Header*/
+  
+  /*Main*/
+  
+  /*Banner*/
+  .imgBanner {
+    height: 650px !important;
+    margin-bottom: 180px;
+    position: relative;
+    bottom: -150px;
+  }
+  
+  /*CajaTexto*/
+  
+  .cajaTexto {
+   width: 100% !important;
+  }
+  
+  .cajaTexto h2 {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .cajaTexto p {
+    text-align: justify;
+    font-family: 'raleway', sans serif;
+    font-size: 30px;
+    color: #222;
+  }
+  
+  /*Lema */
+  
+  #fraseArte {
+  
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  #autorFrase {
+    font-size: 17px !important;
+    margin-top: -19px !important;
+  }
+  
+  /*Sector categorias */
+  
+  /*Titulo categorias */
+  
+  .tituloCat {
+    border-bottom: solid;
+    margin-bottom: 7px;
+    border-image: linear-gradient(90deg, #3aa756 0%, #fabc2d 33%, #e8453c 66%, #4578d1 100%);
+    border-image-slice: 1;
+  }
+  
+  .tituloCat h2{
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    margin-left: 9px;
+    color: black;
+  }
+  
+  /*Contenedor cat */
+  
+  .contenedorCategorias i {
+    color: white;
+  }
+  
+  .contenedorCategorias a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /* Categorias */
+  
+  .catMural {
+    background-color: #3AA756;
+  }
+  
+  .catCuadro {
+    background-color: #E8453C;
+  }
+  
+  .catIlus {
+    background-color: #FABC2D;
+  }
+  
+  .catTeacher {
+    background-color: #4578D1;
+  }
+  
+  /*informacion y redes*/
+  
+  #sectorInfo {
+    background-color: rgb(240, 234, 234);
+    height: 200px;
+  }
+  
+  .redesInfo {
+    margin-top: -15px;
+  }
+  
+  .redesInfo a {
+    font-style: none;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .fa-facebook-f {
+    color: #0165E1;
+  }
+  
+  .fa-instagram {
+    color: #5851DB
+  }
+  
+  .fa-pinterest-p {
+    color: #E60023;
+  }
+  
+  
+  
+  /* */
+  .contenedor-grid i {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .contenedor-grid a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    line-height: 56px;
+    color: white;
+  }
+  
+  .contenedor-grid a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* Section - 5 */
+  
+  .content-section-5 {
+  
+    background-color: aqua;
+    min-height: 1px;
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+  
+  }
+  
+  #section-5 {
+    margin: 0 auto;
+  }
+  
+  .box-flex a {
+    font-family: 'Futura', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .box-flex h2 {
+    color: white;
+    font-size: 28px;
+  }
+  
+  .box-one {
+  
+    /* border: 2px solid #E8453C; */
+    background-color: #E8453C;
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 30px;
+  
+  }
+  
+  .box-two {
+  
+    /* border: 2px solid #FABC2D; */
+    background-color: #FABC2D;
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding: 30px;
+  
+  }
+  
+  .box-three {
+  
+    /* border: 2px solid #3AA756; */
+    background-color: #3AA756;
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 30px;
+  
+  }
+  
+  .box-four {
+  
+    /* border: 2px solid #4578D1; */
+    background-color: #4578D1;
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding: 30px;
+  
+  }
+  
+  .col-bx-1 .box-one, .col-bx-1 .box-two, .col-bx-2 .box-three, .col-bx-2 .box-four {
+    display: flex;
+  }
+  
+  .col-bx-1 .content {
+    border: 2px solid white;
+    padding: 30px 20px;
+    text-align: center;  
+  }
+  
+  .col-bx-2 .content {
+    border: 2px solid white;
+    padding: 30px 20px;  
+    text-align: center;
+  }
+  
+  /* Contenido section 6 */
+  
+  .content-section-6 {
+  
+    width: 50%;
+    padding: 50px 20px;
+  
+  }
+  
+  #section-6 {
+    margin: 0 auto;
+  }
+  
+  .col-6-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-6-flex .asesoramiento {
+    width: 50%;
+    line-height: 28px;
+    font-family: 'Agency FB', arial;
+    font-size: 16px;
+    padding: 0 20px 0 0;
+  }
+  
+  .col-6-flex .asesoramiento input {
+    width: 100%;
+    height: 4vh;
+    padding: 10px;
+    font-family: 'Agency FB', arial;
+    
+  }
+  
+  .col-6-flex .asesoramiento textarea {
+    width: 100%;
+    height: 10vh;
+    resize: vertical;
+  }
+  
+  .col-6-flex .asesoramiento input#condition {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .col-6-flex .asesoramiento label#text-condition {
+    font-size: 15px;
+  }
+  
+  .col-6-flex .asesoramiento input#solicitud {
+  
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border: #222 2px solid;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+  
+  }
+  
+  
+  /* Columna section 6 - 2 (derecha) */
+  
+  .col-6-flex .col-6-flex-2 {
+    width: 50%;
+    padding: 0 0 0 20px;
+  }
+  
+  .col-6-flex .col-6-flex-2 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .col-6-flex .col-6-flex-2 p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+  }
+  
+  /* Contenido Section 7 */
+  
+  .content-section-7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 400px 400px;
+    grid-gap: 30px;
+    padding: 30px;
+    margin: 30px 0;
+  
+  }
+  
+  .content-section-7>div{
+  
+    /* background-color: #eee; */
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  div.seven-box-one {
+    background-color: #3AA756;
+  }
+  
+  div.seven-box-two {
+    background-color: #4578D1;
+  }
+  
+  div.seven-box-three {
+    background-color: #E8453C;
+  }
+  
+  div.seven-box-four {
+    background-color: #FABC2D;
+  }
+  
+  div.seven-box-five {
+    background-color: #3AA756;
+  }
+  
+  div.seven-box-six {
+    background-color: #E8453C;
+  }
+  
+  div.seven-box-seven {
+    background-color: #4578D1;
+  }
+  
+  div.seven-box-eight {
+    background-color: #FABC2D;
+  }
+  
+  div.seven-box-nine {
+    background-color: #3AA756;
+  }
+  
+  div.seven-box-ten {
+    background-color: #4578D1;
+  }
+  
+  /* Content Section 8 */
+  
+  .content-section-8 {
+  
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px;
+    padding: 20px;
+    margin: 30px 0;
+    background-color: #eee;
+  
+  }
+  
+  .eight-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .eight-section .eight-grid-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    float: left;
+  }
+  
+  .eight-grid-one h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    
+  }
+  
+  .eight-grid-one a {
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    text-decoration: none;
+  }
+  
+  .content-section-8 a:hover {
+    text-decoration: underline;
+  }
+  
+  .eight-section .eight-grid-two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .eight-grid-two a {
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .content-section-8 .eight-grid-two .redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+  }
+  
+  .content-section-8 .eight-grid-two .redes-sociales .fa-facebook-f {
+    color: #4578D1;
+  }
+  
+  .content-section-8 .eight-grid-two .redes-sociales .fa-instagram {
+    color: #FABC2D;
+  }
+  
+  .content-section-8 .eight-grid-two .redes-sociales .fa-tiktok {
+    color: #3AA756;
+  }
+  
+  .content-section-8 .eight-grid-two .redes-sociales .fa-pinterest-p {
+    color: #E8453C;
+  }
+  
+  /* Footer */
+  
+  footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 45vh;
+  }
+  
+  
+  .box-footer-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8453C;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box-footer-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FABC2D;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box-footer-three {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #4578D1;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box-footer-four {
+    background-color: #3AA756;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  footer .logotipo img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .box-footer-two .text{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+  }
+  
+  .three-box-content {
+  
+    font-family: 'Raleway', sans-serif;
+    color: white;
+  
+  }
+  
+  .three-box-content h5 {
+    font-size: 20px;
+  }
+  
+  .three-box-content .icono-texto {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  
+  }
+    
+  /*Media Queries*/
+  
+  /* Media min- 320px and max 768 px */
+  
+  @media (min-width:320px) and (max-width:768px) {
+  
+    /*Navbar*/
+    nav {
+      width: 100%; 
+  }
+  
+   .imgLogo {
+    height: 80px !important;
+  }
+  
+   .logoArte {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    font-size: 20px !important; 
+    
+  }
+  
+   .pestañasMenu>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 15px;
+    color: #222;
+  }
+  
+   .menuShop>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #222;
+  }
+  
+   /* End navbar*/
+  
+   /*Image banner*/
+  
+   .imgBanner {
+    height: 230px !important;
+    margin-bottom: 110px;
+    position: relative;
+    bottom: -100px;
+  }
+  
+   /*CajaTexto*/
+  
+   .cajaTexto h2 {
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  
+   .cajaTexto p {
+    font-size: 13px;
+  }
+  
+   /*Frases Aleatorias*/
+  
+   #fraseArte {
+  
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+   
+  
+   .tituloCat h2{
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+   /*Sector redes e informacion */
+   .infoContacto {
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'raleway', sans serif;
+   }
+  
+   .redesInfo a{
+   font-size: 15px;
+   font-family: 'raleway', sans serif;
+   color: black;  
+  
+   }
+   .redesInfo i {
+    font-size: 20px;
+   }
+  
+  }
+  
+  
+  
+  /* Media querie for dispositives of 769 px and 1024 px*/
+  
+  /*Media Queries*/
+  
+  @media (min-width:769px) and (max-width:1024px) {
+    /*Navbar*/
+    nav {
+      width: 100%; 
+      
+    
+  }
+  
+  .logoArte {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    font-size: 25px !important; 
+  }
+  
+   .pestañasMenu>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .menuShop>li>a {
+    text-decoration: none;
+    font-family: 'raleway', sans serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #222;
+  }
+  
+  /* End navbar*/
+  
+  /*Image banner*/
+  
+  .imgBanner {
+    height: 300px !important;
+    margin-bottom: 180px;
+    position: relative;
+    bottom: -150px;
+  }
+  
+  /* Frase */
+  
+  #fraseArte {
+  
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  #autorFrase {
+    font-size: 25px !important;
+    margin-top: -19px !important;
+  }
+  
+  }
+  
+  
+  /* Media querie for dispositives of 1025 px and 1200 px*/
+  
+  @media (min-width:992px) and (max-width:1199px) {
+  
+    /*Imagen banner*/
+    .imgBanner {
+      height: 350px !important;
+      margin-bottom: 180px;
+      position: relative;
+      bottom: -150px;
+    }
+  
+    /*Texto primer sector*/
+  
+    .cajaTexto h2 {
+      font-size: 30px;
+      font-family: 'Jost', sans-serif;
+    }
+    
+    .cajaTexto p {
+      text-align: justify;
+      font-family: 'raleway', sans serif;
+      font-size: 25px;
+      color: #222;
+    }
+  
+    /*Frase texto */
+  
+    #fraseArte {
+      font-size: 25px;
+      font-family: 'Jost', sans-serif;
+    }
+    
+    #autorFrase {
+      font-size: 17px !important;
+      margin-top: -19px !important;
+    }
+  
+    /*Sector cat */
+    .tituloCat h2{
+      font-size: 30px;
+      font-family: 'Jost', sans-serif;
+      margin-left: 9px;
+      color: black;
+    }
+  
+    .contenedorCategorias {
+      font-size: 20px;
+    }
+    
+  }
+  
+  /* Media querie for breakpoint of 1200px in foward */
+  
+  @media (min-width:1200px) {
+  
+    /*Sector categorias */
+  
+   .catMural:hover{
+    background-color: #2ecc55;
+    background-image: url(../img/murales.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  
+  
+   }
+  
+   .catCuadro:hover {
+    background-color: #E8453C;
+    background-image: url(../img/pinturas.jpg); 
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  
+  
+   }
+  
+   .catIlus:hover {
+    background-color: #FABC2D;
+    background-image: url(../img/ilustraciones.jpg);  
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+   }
+  
+   .catTeacher:hover {
+    background-color: #4578D1;
+    background-image: url(../img/enseñanza.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+   }
+  
+    .contenedorCategorias {
+      font-size: 25px;
+    }
+  }
