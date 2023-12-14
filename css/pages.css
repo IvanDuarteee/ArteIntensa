@@ -1,0 +1,34 @@
+/*General Pages*/
+* {
+    margin: 0;
+    padding: 0;
+}
+#mainPages {
+    margin-top: 145px;
+}
+
+/*Shop*/
+
+.shopGeneral {
+    --bs-gutter-x:0 !important;
+}
+
+.catShop {
+    height: 400px;
+}
+
+
+
+/*Medias queries*/
+
+@media (min-width:320px) and (max-width:520px) {
+    #mainPages {
+        margin-top: 95px;
+    }
+}
+
+@media (min-width:521px) and (max-width:768px) {
+    #mainPages {
+        margin-top: 97px;
+    }
+}
