@@ -28,6 +28,7 @@
       rel="stylesheet"
     />
     <title>Arte Intensa | Inicio</title>
+  
     <script src="https://kit.fontawesome.com/becc2c0a91.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -135,12 +136,8 @@
     <!--Inicio Main-->
     <main id="mainPages">
       <section id="headerCategories" class="container-fluid bg-danger">
-        <div class="row">
-          <div class="col-6 d-flex justify-content-end align-items-center mt-5">
+          <div class="text-center">
             <h4>Murals</h4>
-          </div>
-          <div class="col-6 d-flex justify-content-center align-items-center mt-5">
-            <button id="carritoBtn" class="btn btn-dark btn-lg"><i class="fa-solid fa-cart-shopping"></i></button>
           </div>
         </div>
       </section>      
@@ -154,6 +151,19 @@
           <!--Filters-->
           <div class="col-3">
             <!--Search-->
+            <article id="market">
+              <h5 class="text-center">
+                Shop
+              </h5>
+              <div class="d-flex justify-content-center">
+                <button id="carritoBtn" type="button" class="btn btn-dark btn-lg" data-bs-container="body" data-bs-toggle="popover" title="shopPopover" data-bs-placement="right" data-bs-content="Right popover"><i class="fa-solid fa-cart-shopping"></i></button>
+              </div>
+              <div id="carritoPopoverContent" style="display: none;">
+                <h6>Your products</h6>
+                <button id="finalizarCompraBtn" type="button" class="btn btn-success btn-block">Finish your order</button>
+              </div>
+              
+            </article>
             <article id="Search">
               <h5>Search</h5>
               <form class="d-flex" role="search">
@@ -163,7 +173,7 @@
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button class="btn btn-outline-success" type="submit">
+                <button class="btn btn-outline-success d-none d-md-flex" type="submit">
                   Search
                 </button>
               </form>
@@ -518,13 +528,14 @@
         </div>
       </div>
     </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../../js/General/navbar.js"></script>
     <script src="../../js/General/precarga.js"></script>
-   
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+    <script src="../../js/Shop/market.js"></script>
   </body>
 </html>
