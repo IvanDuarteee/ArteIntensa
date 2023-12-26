@@ -91,14 +91,14 @@
    /*Transparencia del navbar al hacer scroll */
   
   #navbarOrigin.navbar-transparent {
-    background-color: rgba(255, 255, 255, 0.9) !important; 
+    background-color: white !important; 
+    box-shadow: 0px 5px 5px -2px #000;
   }
 
   nav img:hover, nav img:focus, footer img:hover, footer img:focus {
     transform: scale(1.1);
     transition: all 0.5 ease-in-out;
   }
-
   
   
   .logoArte {
@@ -168,26 +168,30 @@
   
   /*Banner*/
   .imgBanner {
-    height: 650px !important;
-    margin-bottom: 180px;
-    position: relative;
-    bottom: -150px;
+    background-attachment: fixed;
+    background-image: url(/img/bannerMobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh !important
+    
   }
   
   /*CajaTexto*/
   
-  .cajaTexto {
+  .boxText {
    width: 100% !important;
+   padding: 50px 0px;
   }
   
-  .cajaTexto h2 {
+  .boxText h2 {
     font-size: 40px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
-  .cajaTexto p {
+  .boxText p {
     text-align: justify;
-    font-family: 'raleway', sans serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     color: #222;
   }
@@ -209,48 +213,103 @@
   
   /*Titulo categorias */
   
-  .tituloCat {
+  .titleCat {
     border-bottom: solid;
     margin-bottom: 7px;
     border-image: linear-gradient(90deg, #3aa756 0%, #fabc2d 33%, #e8453c 66%, #4578d1 100%);
     border-image-slice: 1;
   }
   
-  .tituloCat h2{
+  .titleCat h2{
     font-size: 40px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     margin-left: 9px;
     color: black;
   }
   
   /*Contenedor cat */
-  
-  .contenedorCategorias i {
-    color: white;
+
+  .contentCat {
+    height: 500px !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
   }
   
-  .contenedorCategorias a {
+  .contentCat svg {
+    fill: white;
+  }
+  
+  .contentCat a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+  }
+
+  .contentCat a:hover, .contentCat:focus {
+    font-weight: 700;
   }
   
   /* Categorias */
+
+  .boxCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   .catMural {
     background-color: #3AA756;
   }
   
-  .catCuadro {
+  .catIlus {
     background-color: #E8453C;
   }
   
-  .catIlus {
+  .catPaint {
     background-color: #FABC2D;
   }
   
-  .catTeacher {
+  .catCandles {
     background-color: #4578D1;
+  }
+
+  /* Recent Projects */
+  #recentProjects {
+    position: relative;
+  }
+
+  .contenedor-grid i {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .contenedor-grid a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    line-height: 56px;
+    color: white;
+  }
+  
+  .contenedor-grid a:hover {
+    text-decoration: underline;
+  }
+
+  .cardSamples {
+    height: 450px !important;
+  }
+
+  .iconoCard {
+    margin-right: 7px;
+  }
+
+  .projectOne {
+    background-image: url(/img/murals/1/027.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /*informacion y redes*/
@@ -282,35 +341,6 @@
     color: #E60023;
   }
   
-  
-  
-  /* */
-  .contenedor-grid i {
-    color: white;
-    font-size: 32px;
-  }
-  
-  .contenedor-grid a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    text-decoration: none;
-    line-height: 56px;
-    color: white;
-  }
-  
-  .contenedor-grid a:hover {
-    text-decoration: underline;
-  }
-
-  .cardMuestras {
-    height: 35vh !important;
-  }
-
-  .iconoCard {
-    margin-right: 7px;
-  }
-  
-    
   /*Media Queries*/
   
   /* Media min- 320px and max 768 px */
@@ -352,22 +382,23 @@
    /*Image banner*/
   
    .imgBanner {
-    height: 230px !important;
-    margin-bottom: 110px;
-    position: relative;
-    bottom: -100px;
+    height: 400px !important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   
    /*CajaTexto*/
   
-   .cajaTexto h2 {
-    font-size: 25px;
+   .boxText h2 {
+    font-size: 30px;
     font-family: 'Jost', sans-serif;
   }
   
   
-   .cajaTexto p {
-    font-size: 13px;
+   .boxText p {
+    font-size: 16px;
   }
   
    /*Frases Aleatorias*/
@@ -378,8 +409,10 @@
     font-family: 'Jost', sans-serif;
   }
   
+  .boxCat {
+    height: 300px !important;
+  }
    
-  
    .tituloCat h2{
     font-size: 25px;
     font-family: 'Jost', sans-serif;
@@ -410,12 +443,10 @@
   
   /*Media Queries*/
   
-  @media (min-width:769px) and (max-width:1024px) {
-    /*Navbar*/
-    nav {
-      width: 100%; 
-      
-    
+@media (min-width:769px) and (max-width:1024px) {
+  /*Navbar*/
+  nav {
+    width: 100%; 
   }
   
   .logoArte {
@@ -479,12 +510,12 @@
   
     /*Texto primer sector*/
   
-    .cajaTexto h2 {
+    .boxText h2 {
       font-size: 30px;
       font-family: 'Jost', sans-serif;
     }
     
-    .cajaTexto p {
+    .boxText p {
       text-align: justify;
       font-family: 'raleway', sans serif;
       font-size: 25px;
