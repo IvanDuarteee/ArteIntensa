@@ -22,6 +22,59 @@
   .loaded .preloader {
     display: none;
   }
+
+  /* Global Classes */
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .b-green {
+    background-color: #3AA756;
+  }
+
+  .b-red {
+    background-color: #E8453C;
+  }
+
+  .b-yellow {
+    background-color: #FABC2D;
+  }
+
+  .b-blue {
+    background-color: #4578D1;
+  }
+
+  .footerTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .footerLinks {
+    text-decoration: none;
+  }
+
+  .footerLinks:hover, .footerLinks:focus {
+    font-weight: 800;
+  }
+
+  .footerSvg {
+    fill: #ffffff;
+  }
+
+  .footerSvg:hover, .footerSvg:focus {
+    transform: scale(1.2);
+    transition: all 0.5 ease-in-out;
+  }
   
   
   /*Header*/
@@ -29,17 +82,21 @@
   /*Navbar */
   
   nav {
-      position: fixed !important;
-      top: 0;
-      width: 100%; 
-      z-index: 100; 
-    
+    position: fixed !important;
+    top: 0;
+    width: 100%; 
+    z-index: 100; 
   }
   
    /*Transparencia del navbar al hacer scroll */
   
   #navbarOrigin.navbar-transparent {
     background-color: rgba(255, 255, 255, 0.9) !important; 
+  }
+
+  nav img:hover, nav img:focus, footer img:hover, footer img:focus {
+    transform: scale(1.1);
+    transition: all 0.5 ease-in-out;
   }
 
   
@@ -65,40 +122,40 @@
     color: #222;
   }
   
-  .menuShop>li>a.muralShop:hover {
+  .menuShop>li>a.muralShop:hover, .menuShop>li>a.muralShop:focus {
     color: #3AA756;
     transition: all 0.3s ease-in-out;
   }
   
-  .menuShop>li>a.ilusShop:hover {
+  .menuShop>li>a.ilusShop:hover, .menuShop>li>a.ilusShop:focus {
     color: #FABC2D;
     transition: all 0.3s ease-in-out;
   }
   
-  .menuShop>li>a.paintShop:hover {
+  .menuShop>li>a.paintShop:hover, .menuShop>li>a.paintShop:focus {
     color: #4578D1;
     transition: all 0.3s ease-in-out;
   }
   
-  .menuShop>li>a.teacherShop:hover {
+  .menuShop>li>a.candlesShop:hover, .menuShop>li>a.candlesShop:focus {
     color: #E8453C;
     transition: all 0.3s ease-in-out;
   }
   
   
-  .pestañasMenu>li>a.inicio:hover {
+  .pestañasMenu>li>a.inicio:hover, .menuShop>li>a.muralShop:focus {
     color: #3AA756;
     transition: all 0.3s ease-in-out;
   }
-  .pestañasMenu>li>a.shop:hover {
+  .pestañasMenu>li>a.shop:hover, .menuShop>li>a.muralShop:focus {
     color: #FABC2D;
     transition: all 0.3s ease-in-out;
   }
-  .pestañasMenu>li>a.contact-us:hover {
+  .pestañasMenu>li>a.contact-us:hover, .menuShop>li>a.muralShop:focus {
     color: #4578D1;
     transition: all 0.3s ease-in-out;
   }
-  .pestañasMenu>li>a.about:hover {
+  .pestañasMenu>li>a.about:hover, .menuShop>li>a.muralShop:focus {
     color: #E8453C;
     transition: all 0.3s ease-in-out;
   }
