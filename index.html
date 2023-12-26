@@ -27,7 +27,7 @@
       rel="stylesheet"
     />
 
-    <title>Arte Intensa | Inicio</title>
+    <title>Home, Arte Intensa</title>
     <script
       src="https://kit.fontawesome.com/1a307831da.js"
       crossorigin="anonymous"
@@ -38,19 +38,20 @@
     <div class="preloader">
       <img src="./img/Logo-Arte-Intensa.svg" alt="Logo de precarga" />
     </div>
-    <!--Inicio Header-->
+    <!-- Header -->
     <header>
-      <!--Navbar-->
+      <!-- Navbar -->
       <nav id="navbarOrigin" class="navbar navbar-expand-xl bg-body-tertiary">
-        <div class="container-fluid">
-          <img
+        <div class="container">
+          <a href="/index.html">
+            <img
             src="./img/Logo-Arte-Intensa.svg"
             class="img-fluid imgLogo"
             alt="logo"
             width="100"
             height="50"
-          />
-          <a class="navbar-brand logoArte" href="#">Arte Intensa</a>
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -71,7 +72,7 @@
                   class="nav-link active inicio"
                   aria-current="page"
                   href="index.html"
-                  >Inicio</a
+                  >Home</a
                 >
               </li>
               <li class="nav-item dropdown">
@@ -87,7 +88,7 @@
                 <ul class="dropdown-menu menuShop">
                   <li>
                     <a
-                      class="dropdown-item muralShop"
+                      class="dropdown-item ilusShop"
                       href="./Pages/murals.html"
                       >Murals</a
                     >
@@ -103,7 +104,7 @@
                   <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a
-                      class="dropdown-item paintShop"
+                      class="dropdown-item ilusShop"
                       href="./Pages/paintings.html"
                       >Paintings</a
                     >
@@ -111,9 +112,9 @@
                   <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a
-                      class="dropdown-item teacherShop"
+                      class="dropdown-item ilusShop"
                       href="./Pages/Teacher Paiting.html"
-                      >Teacher Painting</a
+                      >Candles</a
                     >
                   </li>
                 </ul>
@@ -132,22 +133,20 @@
           </div>
         </div>
       </nav>
-      <!--Fin Navbar-->
     </header>
-    <!--Fin Header-->
-    <!--Inicio Main-->
+    <!-- Main -->
     <main>
       <section id="inicioPrincipal">
         <!--ImagenPrincipal-->
         <div class="container-fluid">
           <img
             src="./img/bannerMobile.jpg"
-            class="img-fluid w-100 imgBanner"
+            class="img-fluid w-100 imgBanner py-5"
             alt="ArtistaUno"
           />
         </div>
         <!--Texto-->
-        <div class="container-fluid w-100 cajaTexto">
+        <div class="container w-100 cajaTexto">
           <h2>¡Hola!</h2>
           <p>
             Nosotros somos Maylen y Agustín de
@@ -663,45 +662,153 @@
     <!--Footer-->
     <footer>
       <div class="container-fluid text-center">
+        <!-- Box -->
         <div class="row">
-          <div class="col bg-danger">
-            <img src="./img/Logotipo-Arte-Intensa-Sin-Fondo-svg.svg" class="img-fluid rounded" alt="...">
+
+          <!-- Logotipo (Green) -->
+          <div class="col b-green d-flex flex-column align-content-center justify-content-center p-5">
+            <a href="/index.html">
+              <img src="./img/Logotipo-Arte-Intensa-Sin-Fondo-svg.svg" height="220" alt="Logotipo Arte Intensa">
+            </a>
           </div>
-          <div class="col bg-warning d-flex align-items-center">
-            <p class="text-white fs-3 fw-bold m-auto">"SI PUEDES IMAGINARLO PUEDES PINTARLO"</p>
-          </div>
-          
-          <div class="col bg-primary text-white d-flex flex-column justify-content-center align-items-center">
-            <h5 class="fw-bold mb-4">Encuéntranos en redes sociales como:</h5>
+
+          <!-- Services (Red) -->
+          <div class="col b-red text-white d-flex flex-column text-left p-5">
+            <h5 class="fw-semibold mb-4 footerTitle">Services</h5>
             
-            <div class="mb-3">
-              <i class="fa-brands fa-facebook-f m-1"></i>
-              <span class="social-text">ArteIntensa</span>
-            </div>
-            
-            <div class="mb-3">
-              <i class="fa-brands fa-instagram m-1"></i>
-              <span class="social-text">ArteIntensa</span>
-            </div>
-            
-            <div class="mb-3">
-              <i class="fa-brands fa-tiktok m-1"></i> 
-              <span class="social-text">ArteIntensa</span>
-            </div>
-            
-            <div class="mb-3">
-              <i class="fa-brands fa-pinterest-p m-1"></i> 
-              <span class="social-text">ArteIntensa</span>
+            <div class="row">
+              <a href="/pages/pagesShop/murals.html" class="py-2 footerLinks text-white">
+                Murals
+              </a>
+              <a href="/pages/pagesShop/ilustrations.html" class="py-2 footerLinks text-white">
+                Illustrations
+              </a>
+              <a href="/pages/pagesShop/paintings.html" class="py-2 footerLinks text-white">
+                Paintings
+              </a>
+              <a href="/pages/pagesShop/candles.html" class="py-2 footerLinks text-white">
+                Candles
+              </a>
             </div>
           </div>
           
-          <div class="col bg-success">
-            <img src="./img/Logotipo-Arte-Intensa-Sin-Fondo-svg.svg" class="img-fluid rounded" alt="...">
+          <!-- Company (Yellow) -->
+          <div class="col b-yellow text-white d-flex flex-column text-left p-5">
+            <h5 class="fw-semibold mb-4 footerTitle">Company</h5>
+            
+            <div class="row">
+              <a href="/pages/about-us.html" class="py-2 footerLinks text-white">
+                About Us
+              </a>
+              <a href="/pages/contact-us.html" class="py-2 footerLinks text-white">
+                Contact Us
+              </a>
+              <a href="/pages/contact-us.html#findUs" class="py-2 footerLinks text-white">
+                Find Us
+              </a>
+              <a href="/pages/contact-us.html#reviews" class="py-2 footerLinks text-white">
+                Reviews
+              </a>
+            </div>
+          </div>
+          
+          <!-- Contact (Blue) -->
+          <div class="col b-blue text-white d-flex flex-column align-content-center justify-content-center text-left p-5">
+            
+            <div class="row mb-3">
+              <!-- Phone Number -->
+              <a href="" class="py-2 footerLinks text-white">
+                +1 (123) 456-7890
+              </a>
+              <!-- Email Address -->
+              <a href="mailto:arteintensacontact@gmail.com" class="py-2 footerLinks text-white">
+                arteintensacontact@gmail.com
+              </a>
+              <!-- Location -->
+              <a href="https://maps.app.goo.gl/hsTHrUU9MKLbyGBt7" target="_blank" class="py-2 footerLinks text-white">
+                High Point, NC, 27262
+              </a>
+            </div>
+
+            <div class="container-fluid d-flex align-content-center justify-content-between">
+              
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/arteintensaok" target="_blank">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                class="footerSvg" 
+                height="25"
+                viewBox="0 0 320 512">
+                <path 
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+                </svg>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/arteintensa" target="_blank">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                class="footerSvg"
+                height="25"
+                viewBox="0 0 448 512">
+                <path 
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                </svg>
+              </a>
+
+              <!-- Etsy -->
+              <a href="https://arteintensa.etsy.com" target="_blank">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="footerSvg"
+                height="25"
+                viewBox="0 0 384 512">
+                <path 
+                d="M384 348c-1.8 10.8-13.8 110-15.5 132-117.9-4.3-219.9-4.7-368.5 0v-25.5c45.5-8.9 60.6-8 61-35.3 1.8-72.3 3.5-244.1 0-322-1-28.5-12.1-26.8-61-36v-25.5c73.9 2.4 255.9 8.6 363-3.8-3.5 38.3-7.8 126.5-7.8 126.5H332C320.9 115.7 313.2 68 277.3 68h-137c-10.3 0-10.8 3.5-10.8 9.8V241.5c58 .5 88.5-2.5 88.5-2.5 29.8-1 27.6-8.5 40.8-65.3h25.8c-4.4 101.4-3.9 61.8-1.8 160.3H257c-9.2-40.1-9.1-61-39.5-61.5 0 0-21.5-2-88-2v139c0 26 14.3 38.3 44.3 38.3H263c63.6 0 66.6-25 98.8-99.8H384z"/>
+                </svg>
+              </a>
+
+              <!-- Tik Tok -->
+              <a href="#" target="_blank">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                class="footerSvg"
+                height="25"
+                viewBox="0 0 448 512">
+                <path 
+                d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/>
+                </svg>
+              </a>
+
+              <!-- Pinterest -->
+              <a href="https://pin.it/2boPY7i" target="_blank">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                class="footerSvg" 
+                height="25"
+                viewBox="0 0 384 512">
+                <path 
+                d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/>
+                </svg>
+              </a>
+
+            </div>
           </div>
         </div>
+
+        <div class="py-3">
+          <p>
+            <a href="" target="_blank" class="footerLinks text-dark">
+              Terms of Use
+            </a>|
+            Made in Arte Intensa LLC. All rights reserved
+          </p>
+        </div>
+
       </div>
       
     </footer>
+    <!-- Scripts -->
     <script src="./js/Index/index.js"></script>
     <script src="/js/General/navbar.js"></script>
     <script src="./js/General/precarga.js"></script>
