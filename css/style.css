@@ -276,9 +276,6 @@
   }
 
   /* Recent Projects */
-  #recentProjects {
-    position: relative;
-  }
 
   .contenedor-grid i {
     color: white;
@@ -305,8 +302,7 @@
     margin-right: 7px;
   }
 
-  .projectOne {
-    background-image: url(/img/murals/1/027.webp);
+  .project {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
