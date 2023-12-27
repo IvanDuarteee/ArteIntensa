@@ -255,13 +255,14 @@ footer img:focus {
 
 .contentCat a {
   color: white;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .contentCat a:hover,
 .contentCat a:focus {
-  font-weight: 700;
+  text-decoration: underline;
 }
 
 /* Categorias */
@@ -297,12 +298,20 @@ footer img:focus {
   font-size: 32px;
 }
 
-.contenedor-grid a {
+.contentProject a {
   font-family: "Raleway", sans-serif;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 3px;
   text-decoration: none;
-  line-height: 56px;
+  text-transform: uppercase;
   color: white;
+  fill: white;
+  padding: 20px 0px;
+}
+
+.contentProject a:hover, .contentProject a:focus {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
 }
 
 .contenedor-grid a:hover {
@@ -313,8 +322,8 @@ footer img:focus {
   height: 450px !important;
 }
 
-.iconoCard {
-  margin-right: 7px;
+.iconCard {
+  margin-right: 10px;
 }
 
 .project {
@@ -323,7 +332,7 @@ footer img:focus {
   background-size: cover;
 }
 
-/*informacion y redes*/
+/* Information and Social Media */
 
 #sectorInfo {
   background-color: rgb(240, 234, 234);
@@ -354,11 +363,11 @@ footer img:focus {
 }
 
 .infoContacto svg.facebook {
-  fill: #3b5998;
+  fill: #4578d1;
 }
 
 .infoContacto svg.instagram {
-  fill: #dd2a7b;
+  fill: #fabc2d;
 }
 
 .infoContacto svg.etsy {
@@ -366,11 +375,11 @@ footer img:focus {
 }
 
 .infoContacto svg.tikTok {
-  fill: #000;
+  fill: #3aa756;
 }
 
 .infoContacto svg.pinterest {
-  fill: #c8232c;
+  fill: #e8453c;
 }
 
 /* Section Candles */
@@ -612,44 +621,45 @@ footer img:focus {
 
 /* Media querie for breakpoint of 1200px in foward */
 
+/*Sector categorias */
+
 @media (min-width: 1200px) {
-  /*Sector categorias */
+  
 
-  .catMural:hover {
-    background-color: #2ecc55;
-    background-image: url(../img/murales.jpg);
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  }
-
-  .catCuadro:hover {
-    background-color: #e8453c;
-    background-image: url(../img/pinturas.jpg);
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  }
-
-  .catIlus:hover {
-    background-color: #fabc2d;
-    background-image: url(../img/ilustraciones.jpg);
+  .catMural:hover, .catMural:focus {
+    background-image: url(../img/murals/5/1.webp);
+    background-position: center left;
+    background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1);
     transition: transform 0.5s;
   }
 
-  .catTeacher:hover {
-    background-color: #4578d1;
-    background-image: url(../img/enseñanza.jpg);
+  .catIlus:hover, .catIlus:focus {
+    background-image: url(../img/ilustrations/3/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1);
     transition: transform 0.5s;
   }
 
-  .contenedorCategorias {
-    font-size: 25px;
+  .catPaint:hover, .catIlust:focus {
+    background-image: url(../img/paintings/1/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
   }
+
+  .catCandles:hover, .catCandles:focus {
+    background-image: url(../img/candles/1/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
 }
