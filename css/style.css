@@ -1,567 +1,665 @@
-  
-  /*Precarga*/
-  
-  .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff; /* Fondo del preloader */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
-  .preloader img {
-    width: 100px; /* Ajusta el tamaño de la imagen */
-  }
-  
-  /* Estilo adicional para ocultar el preloader cuando la página está lista */
-  .loaded .preloader {
-    display: none;
-  }
+/*Precarga*/
 
-  /* Global Classes */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff; /* Fondo del preloader */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
 
-  .text-left {
-    text-align: left;
-  }
+.preloader img {
+  width: 100px; /* Ajusta el tamaño de la imagen */
+}
 
-  .text-center {
-    text-align: center;
-  }
+/* Estilo adicional para ocultar el preloader cuando la página está lista */
+.loaded .preloader {
+  display: none;
+}
 
-  .text-right {
-    text-align: right;
-  }
+/* Global Classes */
 
-  .b-green {
-    background-color: #3AA756;
-  }
+.text-left {
+  text-align: left;
+}
 
-  .b-red {
-    background-color: #E8453C;
-  }
+.text-center {
+  text-align: center;
+}
 
-  .b-yellow {
-    background-color: #FABC2D;
-  }
+.text-right {
+  text-align: right;
+}
 
-  .b-blue {
-    background-color: #4578D1;
-  }
+.b-green {
+  background-color: #3aa756;
+}
 
-  .footerTitle {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-decoration: underline;
-  }
+.b-red {
+  background-color: #e8453c;
+}
 
-  .footerLinks {
-    text-decoration: none;
-  }
+.b-yellow {
+  background-color: #fabc2d;
+}
 
-  .footerLinks:hover, .footerLinks:focus {
-    font-weight: 800;
-  }
+.b-blue {
+  background-color: #4578d1;
+}
 
-  .footerSvg {
-    fill: #ffffff;
-  }
+.footerTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
 
-  .footerSvg:hover, .footerSvg:focus {
-    transform: scale(1.2);
-    transition: all 0.5 ease-in-out;
-  }
-  
-  
-  /*Header*/
-  
-  /*Navbar */
-  
+.footerLinks {
+  text-decoration: none;
+}
+
+.footerLinks:hover,
+.footerLinks:focus {
+  font-weight: 800;
+}
+
+.footerSvg {
+  fill: #ffffff;
+}
+
+.footerSvg:hover,
+.footerSvg:focus {
+  transform: scale(1.2);
+  transition: all 0.5 ease-in-out;
+}
+
+/*Header*/
+
+/*Navbar */
+
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/*Transparencia del navbar al hacer scroll */
+
+#navbarOrigin.navbar-transparent {
+  background-color: white !important;
+  box-shadow: 0px 5px 5px -2px #000;
+}
+
+nav img:hover,
+nav img:focus,
+footer img:hover,
+footer img:focus {
+  transform: scale(1.1);
+  transition: all 0.5 ease-in-out;
+}
+
+.logoArte {
+  font-family: "Noto Sans Devanagari", sans-serif;
+  font-size: 40px !important;
+  font-weight: lighter;
+}
+
+.pestañasMenu > li > a {
+  text-decoration: none;
+  font-family: "raleway", sans serif;
+  font-size: 30px;
+  color: #222;
+}
+
+.menuShop > li > a {
+  text-decoration: none;
+  font-family: "raleway", sans serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #222;
+}
+
+.menuShop > li > a.muralShop:hover,
+.menuShop > li > a.muralShop:focus {
+  color: #3aa756;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuShop > li > a.ilusShop:hover,
+.menuShop > li > a.ilusShop:focus {
+  color: #fabc2d;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuShop > li > a.paintShop:hover,
+.menuShop > li > a.paintShop:focus {
+  color: #4578d1;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuShop > li > a.candlesShop:hover,
+.menuShop > li > a.candlesShop:focus {
+  color: #e8453c;
+  transition: all 0.3s ease-in-out;
+}
+
+.pestañasMenu > li > a.inicio:hover,
+.menuShop > li > a.muralShop:focus {
+  color: #3aa756;
+  transition: all 0.3s ease-in-out;
+}
+.pestañasMenu > li > a.shop:hover,
+.menuShop > li > a.muralShop:focus {
+  color: #fabc2d;
+  transition: all 0.3s ease-in-out;
+}
+.pestañasMenu > li > a.contact-us:hover,
+.menuShop > li > a.muralShop:focus {
+  color: #4578d1;
+  transition: all 0.3s ease-in-out;
+}
+.pestañasMenu > li > a.about:hover,
+.menuShop > li > a.muralShop:focus {
+  color: #e8453c;
+  transition: all 0.3s ease-in-out;
+}
+
+/*Fin navbar */
+
+/*Header*/
+
+/*Main*/
+
+/*Banner*/
+.imgBanner {
+  background-attachment: fixed;
+  background-image: url(/img/bannerMobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh !important;
+}
+
+/*CajaTexto*/
+
+.boxText {
+  width: 100% !important;
+  padding: 50px 0px;
+}
+
+.boxText h2 {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+.boxText p {
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: #222;
+}
+
+/*Lema */
+
+#fraseArte {
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+}
+
+#autorFrase {
+  font-size: 17px !important;
+  margin-top: -19px !important;
+}
+
+/*Sector categorias */
+
+/*Titulo categorias */
+
+.titleCat {
+  border-bottom: solid;
+  margin-bottom: 7px;
+  border-image: linear-gradient(
+    90deg,
+    #3aa756 0%,
+    #fabc2d 33%,
+    #e8453c 66%,
+    #4578d1 100%
+  );
+  border-image-slice: 1;
+}
+
+.titleCat h2 {
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-left: 9px;
+  color: black;
+}
+
+/*Contenedor cat */
+
+.contentCat {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.contentCat svg {
+  fill: white;
+}
+
+.contentCat a {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contentCat a:hover,
+.contentCat a:focus {
+  text-decoration: underline;
+}
+
+/* Categorias */
+
+.boxCat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0px;
+}
+
+.catMural {
+  background-color: #3aa756;
+}
+
+.catIlus {
+  background-color: #e8453c;
+}
+
+.catPaint {
+  background-color: #fabc2d;
+}
+
+.catCandles {
+  background-color: #4578d1;
+}
+
+/* Recent Projects */
+
+.contenedor-grid i {
+  color: white;
+  font-size: 32px;
+}
+
+.contentProject a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  fill: white;
+  padding: 20px 0px;
+}
+
+.contentProject a:hover, .contentProject a:focus {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+}
+
+.contenedor-grid a:hover {
+  text-decoration: underline;
+}
+
+.cardSamples {
+  height: 450px !important;
+}
+
+.iconCard {
+  margin-right: 10px;
+}
+
+.project {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Information and Social Media */
+
+#sectorInfo {
+  background-color: rgb(240, 234, 234);
+  display: flex;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.infoTitle {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.infoLinks {
+  text-decoration: underline;
+  font-size: 36px;
+}
+
+.infoContacto a:hover,
+.infoContacto a:focus {
+  font-weight: 700;
+}
+
+.infoContacto svg:hover,
+.infoContacto svg:focus {
+  transform: scale(1.2);
+  transition: all 0.5 ease-in-out;
+}
+
+.infoContacto svg.facebook {
+  fill: #4578d1;
+}
+
+.infoContacto svg.instagram {
+  fill: #fabc2d;
+}
+
+.infoContacto svg.etsy {
+  fill: #eb6d20;
+}
+
+.infoContacto svg.tikTok {
+  fill: #3aa756;
+}
+
+.infoContacto svg.pinterest {
+  fill: #e8453c;
+}
+
+/* Section Candles */
+
+#sectionCandles {
+  background-image: url(/img/candles/1/1.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.candlesBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  padding: 200px 0px;
+}
+
+.candlesText {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Media Queries*/
+
+/* Media min- 320px and max 768 px */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /*Navbar*/
   nav {
-    position: fixed !important;
-    top: 0;
-    width: 100%; 
-    z-index: 100; 
-  }
-  
-   /*Transparencia del navbar al hacer scroll */
-  
-  #navbarOrigin.navbar-transparent {
-    background-color: rgba(255, 255, 255, 0.9) !important; 
+    width: 100%;
   }
 
-  nav img:hover, nav img:focus, footer img:hover, footer img:focus {
-    transform: scale(1.1);
-    transition: all 0.5 ease-in-out;
-  }
-
-  
-  
-  .logoArte {
-    font-family: 'Noto Sans Devanagari', sans-serif;
-    font-size: 40px !important; 
-    font-weight: lighter;
-  }
-  
-   .pestañasMenu>li>a {
-    text-decoration: none;
-    font-family: 'raleway', sans serif;
-    font-size: 30px;
-    color: #222;
-  }
-  
-  .menuShop>li>a {
-    text-decoration: none;
-    font-family: 'raleway', sans serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: #222;
-  }
-  
-  .menuShop>li>a.muralShop:hover, .menuShop>li>a.muralShop:focus {
-    color: #3AA756;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .menuShop>li>a.ilusShop:hover, .menuShop>li>a.ilusShop:focus {
-    color: #FABC2D;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .menuShop>li>a.paintShop:hover, .menuShop>li>a.paintShop:focus {
-    color: #4578D1;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .menuShop>li>a.candlesShop:hover, .menuShop>li>a.candlesShop:focus {
-    color: #E8453C;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  
-  .pestañasMenu>li>a.inicio:hover, .menuShop>li>a.muralShop:focus {
-    color: #3AA756;
-    transition: all 0.3s ease-in-out;
-  }
-  .pestañasMenu>li>a.shop:hover, .menuShop>li>a.muralShop:focus {
-    color: #FABC2D;
-    transition: all 0.3s ease-in-out;
-  }
-  .pestañasMenu>li>a.contact-us:hover, .menuShop>li>a.muralShop:focus {
-    color: #4578D1;
-    transition: all 0.3s ease-in-out;
-  }
-  .pestañasMenu>li>a.about:hover, .menuShop>li>a.muralShop:focus {
-    color: #E8453C;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  /*Fin navbar */
-  
-  /*Header*/
-  
-  /*Main*/
-  
-  /*Banner*/
-  .imgBanner {
-    height: 650px !important;
-    margin-bottom: 180px;
-    position: relative;
-    bottom: -150px;
-  }
-  
-  /*CajaTexto*/
-  
-  .cajaTexto {
-   width: 100% !important;
-  }
-  
-  .cajaTexto h2 {
-    font-size: 40px;
-    font-family: 'Jost', sans-serif;
-  }
-  
-  .cajaTexto p {
-    text-align: justify;
-    font-family: 'raleway', sans serif;
-    font-size: 30px;
-    color: #222;
-  }
-  
-  /*Lema */
-  
-  #fraseArte {
-  
-    font-size: 30px;
-    font-family: 'Jost', sans-serif;
-  }
-  
-  #autorFrase {
-    font-size: 17px !important;
-    margin-top: -19px !important;
-  }
-  
-  /*Sector categorias */
-  
-  /*Titulo categorias */
-  
-  .tituloCat {
-    border-bottom: solid;
-    margin-bottom: 7px;
-    border-image: linear-gradient(90deg, #3aa756 0%, #fabc2d 33%, #e8453c 66%, #4578d1 100%);
-    border-image-slice: 1;
-  }
-  
-  .tituloCat h2{
-    font-size: 40px;
-    font-family: 'Jost', sans-serif;
-    margin-left: 9px;
-    color: black;
-  }
-  
-  /*Contenedor cat */
-  
-  .contenedorCategorias i {
-    color: white;
-  }
-  
-  .contenedorCategorias a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-  }
-  
-  /* Categorias */
-  
-  .catMural {
-    background-color: #3AA756;
-  }
-  
-  .catCuadro {
-    background-color: #E8453C;
-  }
-  
-  .catIlus {
-    background-color: #FABC2D;
-  }
-  
-  .catTeacher {
-    background-color: #4578D1;
-  }
-  
-  /*informacion y redes*/
-  
-  #sectorInfo {
-    background-color: rgb(240, 234, 234);
-    height: 200px;
-  }
-  
-  .redesInfo {
-    margin-top: -15px;
-  }
-  
-  .redesInfo a {
-    font-style: none;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .fa-facebook-f {
-    color: #0165E1;
-  }
-  
-  .fa-instagram {
-    color: #5851DB
-  }
-  
-  .fa-pinterest-p {
-    color: #E60023;
-  }
-  
-  
-  
-  /* */
-  .contenedor-grid i {
-    color: white;
-    font-size: 32px;
-  }
-  
-  .contenedor-grid a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    text-decoration: none;
-    line-height: 56px;
-    color: white;
-  }
-  
-  .contenedor-grid a:hover {
-    text-decoration: underline;
-  }
-
-  .cardMuestras {
-    height: 35vh !important;
-  }
-
-  .iconoCard {
-    margin-right: 7px;
-  }
-  
-    
-  /*Media Queries*/
-  
-  /* Media min- 320px and max 768 px */
-  
-  @media (min-width:320px) and (max-width:768px) {
-  
-    /*Navbar*/
-    nav {
-      width: 100%; 
-  }
-  
-   .imgLogo {
+  .imgLogo {
     height: 80px !important;
   }
-  
-   .logoArte {
-    font-family: 'Noto Sans Devanagari', sans-serif;
-    font-size: 20px !important; 
-    
+
+  .logoArte {
+    font-family: "Noto Sans Devanagari", sans-serif;
+    font-size: 20px !important;
   }
-  
-   .pestañasMenu>li>a {
+
+  .pestañasMenu > li > a {
     text-decoration: none;
-    font-family: 'raleway', sans serif;
+    font-family: "raleway", sans serif;
     font-size: 15px;
     color: #222;
   }
-  
-   .menuShop>li>a {
+
+  .menuShop > li > a {
     text-decoration: none;
-    font-family: 'raleway', sans serif;
+    font-family: "raleway", sans serif;
     font-size: 10px;
     font-weight: bolder;
     color: #222;
   }
-  
-   /* End navbar*/
-  
-   /*Image banner*/
-  
-   .imgBanner {
-    height: 230px !important;
-    margin-bottom: 110px;
-    position: relative;
-    bottom: -100px;
+
+  /* End navbar*/
+
+  /*Image banner*/
+
+  .imgBanner {
+    height: 400px !important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
-  
-   /*CajaTexto*/
-  
-   .cajaTexto h2 {
-    font-size: 25px;
-    font-family: 'Jost', sans-serif;
+
+  /*CajaTexto*/
+
+  .boxText h2 {
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
   }
-  
-  
-   .cajaTexto p {
-    font-size: 13px;
-  }
-  
-   /*Frases Aleatorias*/
-  
-   #fraseArte {
-  
+
+  .boxText p {
     font-size: 16px;
-    font-family: 'Jost', sans-serif;
   }
-  
-   
-  
-   .tituloCat h2{
+
+  /*Frases Aleatorias*/
+
+  #fraseArte {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .contentCat svg {
+    height: 30px;
+  }
+
+  .boxCat {
+    height: 300px !important;
+  }
+
+  .tituloCat h2 {
     font-size: 25px;
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
   }
-  
-   /*Sector redes e informacion */
-   .infoContacto {
-     font-size: 20px;
-     font-weight: bold;
-     font-family: 'raleway', sans serif;
-   }
-  
-   .redesInfo a{
-   font-size: 15px;
-   font-family: 'raleway', sans serif;
-   color: black;  
-  
-   }
-   .redesInfo i {
+
+  /*Sector redes e informacion */
+  .infoContacto {
     font-size: 20px;
-   }
-  
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
   }
-  
-  
-  
-  /* Media querie for dispositives of 769 px and 1024 px*/
-  
-  /*Media Queries*/
-  
-  @media (min-width:769px) and (max-width:1024px) {
-    /*Navbar*/
-    nav {
-      width: 100%; 
-      
-    
+
+  .redesInfo a {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: black;
   }
-  
+
+  .redesInfo i {
+    font-size: 20px;
+  }
+
+  /* Candles */
+
+  .candlesBackground {
+    padding: 0px 0px;
+  }
+
+  .candlesImage {
+    height: 180px;
+  }
+
+  .candlesText {
+    padding: 100px 0px;
+  }
+
+}
+
+/* Media querie for dispositives of 769 px and 1024 px*/
+
+/*Media Queries*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /*Navbar*/
+  nav {
+    width: 100%;
+  }
+
   .logoArte {
-    font-family: 'Noto Sans Devanagari', sans-serif;
-    font-size: 25px !important; 
+    font-family: "Noto Sans Devanagari", sans-serif;
+    font-size: 25px !important;
   }
-  
-   .pestañasMenu>li>a {
+
+  .pestañasMenu > li > a {
     text-decoration: none;
-    font-family: 'raleway', sans serif;
+    font-family: "raleway", sans serif;
     font-size: 20px;
     color: #222;
   }
-  
-  .menuShop>li>a {
+
+  .menuShop > li > a {
     text-decoration: none;
-    font-family: 'raleway', sans serif;
+    font-family: "raleway", sans serif;
     font-size: 13px;
     font-weight: bolder;
     color: #222;
   }
-  
+
   /* End navbar*/
-  
+
   /*Image banner*/
-  
+
   .imgBanner {
     height: 300px !important;
     margin-bottom: 180px;
     position: relative;
     bottom: -150px;
   }
-  
+
   /* Frase */
-  
+
   #fraseArte {
-  
     font-size: 35px;
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
   }
-  
+
   #autorFrase {
     font-size: 25px !important;
     margin-top: -19px !important;
   }
-  
+
+  .infoContacto h3 {
+    font-size: 20px;
   }
-  
-  
-  /* Media querie for dispositives of 1025 px and 1200 px*/
-  
-  @media (min-width:992px) and (max-width:1199px) {
-  
-    /*Imagen banner*/
-    .imgBanner {
-      height: 350px !important;
-      margin-bottom: 180px;
-      position: relative;
-      bottom: -150px;
-    }
-  
-    /*Texto primer sector*/
-  
-    .cajaTexto h2 {
-      font-size: 30px;
-      font-family: 'Jost', sans-serif;
-    }
-    
-    .cajaTexto p {
-      text-align: justify;
-      font-family: 'raleway', sans serif;
-      font-size: 25px;
-      color: #222;
-    }
-  
-    /*Frase texto */
-  
-    #fraseArte {
-      font-size: 25px;
-      font-family: 'Jost', sans-serif;
-    }
-    
-    #autorFrase {
-      font-size: 17px !important;
-      margin-top: -19px !important;
-    }
-  
-    /*Sector cat */
-    .tituloCat h2{
-      font-size: 30px;
-      font-family: 'Jost', sans-serif;
-      margin-left: 9px;
-      color: black;
-    }
-  
-    .contenedorCategorias {
-      font-size: 20px;
-    }
-    
+}
+
+/* Media querie for dispositives of 1025 px and 1200 px*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*Imagen banner*/
+  .imgBanner {
+    height: 350px !important;
+    margin-bottom: 180px;
+    position: relative;
+    bottom: -150px;
   }
+
+  /*Texto primer sector*/
+
+  .boxText h2 {
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .boxText p {
+    text-align: justify;
+    font-family: "raleway", sans serif;
+    font-size: 25px;
+    color: #222;
+  }
+
+  /*Frase texto */
+
+  #fraseArte {
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+  }
+
+  #autorFrase {
+    font-size: 17px !important;
+    margin-top: -19px !important;
+  }
+
+  /*Sector cat */
+  .tituloCat h2 {
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    margin-left: 9px;
+    color: black;
+  }
+
+  .contenedorCategorias {
+    font-size: 20px;
+  }
+}
+
+/* Media querie for breakpoint of 1200px in foward */
+
+/*Sector categorias */
+
+@media (min-width: 1200px) {
   
-  /* Media querie for breakpoint of 1200px in foward */
-  
-  @media (min-width:1200px) {
-  
-    /*Sector categorias */
-  
-   .catMural:hover{
-    background-color: #2ecc55;
-    background-image: url(../img/murales.jpg);
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  
-  
-   }
-  
-   .catCuadro:hover {
-    background-color: #E8453C;
-    background-image: url(../img/pinturas.jpg); 
-    background-size:cover;
-    background-color: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  
-  
-   }
-  
-   .catIlus:hover {
-    background-color: #FABC2D;
-    background-image: url(../img/ilustraciones.jpg);  
+
+  .catMural:hover, .catMural:focus {
+    background-image: url(../img/murals/5/1.webp);
+    background-position: center left;
+    background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1);
     transition: transform 0.5s;
-   }
-  
-   .catTeacher:hover {
-    background-color: #4578D1;
-    background-image: url(../img/enseñanza.jpg);
+  }
+
+  .catIlus:hover, .catIlus:focus {
+    background-image: url(../img/ilustrations/3/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1);
     transition: transform 0.5s;
-   }
-  
-    .contenedorCategorias {
-      font-size: 25px;
-    }
   }
+
+  .catPaint:hover, .catIlust:focus {
+    background-image: url(../img/paintings/1/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
+  .catCandles:hover, .catCandles:focus {
+    background-image: url(../img/candles/1/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
+
+}
