@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
 /*General Pages*/
 * {
     margin: 0;
@@ -17,6 +19,96 @@
     height: 400px;
 }
 
+.image-container {
+    position: relative;
+  }
+
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8453c; /* Color deseado */
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+    z-index: 0; /* Coloca la capa de color detrás de la imagen */
+  }
+  
+  .title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cambia el color del texto según sea necesario */
+    font-size: 50px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-family: 'Cabin', sans-serif;
+  }
+  
+
+
+.imgTitle {
+    height: 150px;
+    object-fit: cover;
+}
+
+.imgCarouselCat {
+    object-fit: cover;
+    height: 300px;
+}
+
+.imgCat hover {
+
+}
+
+
+
+
+.btn-sample { 
+    color: #FFFFFF; 
+    background-color: #D44E4E; 
+    border-color: #BD0F4C; 
+  } 
+
+  .btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #260101; 
+  border-color: #BD0F4C; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #D44E4E; 
+  border-color: #BD0F4C; 
+} 
+ 
+.btn-sample .badge { 
+  color: #D44E4E; 
+  background-color: #FFFFFF; 
+}
 
 
 /*Medias queries*/
