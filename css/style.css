@@ -386,7 +386,7 @@ footer img:focus {
 
 #sectionCandles {
   background-image: url(/img/candles/1/1.webp);
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -398,6 +398,22 @@ footer img:focus {
 
 .candlesText {
   font-family: 'Raleway', sans-serif;
+}
+
+/* About Us Pages */
+
+.aboutUsImage {
+  background-image: url(/img/enseñanza.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.aboutUsText {
+  padding-top: 175px;
 }
 
 /*Media Queries*/
