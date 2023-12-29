@@ -30,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e8453c; /* Color deseado */
+    background-color: #3aa756; /* Color deseado */
     opacity: 0.5; /* Ajusta la opacidad según sea necesario */
     z-index: 0; /* Coloca la capa de color detrás de la imagen */
   }
@@ -74,6 +74,9 @@
 }
 
 .imgCarouselCat {
+  background-color: #3aa756; /* Color deseado */
+  opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
     object-fit: cover;
     height: 300px;
 }
