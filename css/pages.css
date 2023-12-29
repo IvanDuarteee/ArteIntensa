@@ -31,7 +31,7 @@
     width: 100%;
     height: 100%;
     background-color: #3aa756; /* Color deseado */
-    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+    opacity: 0.; /* Ajusta la opacidad según sea necesario */
     z-index: 0; /* Coloca la capa de color detrás de la imagen */
   }
   
@@ -42,7 +42,7 @@
     transform: translate(-50%, -50%);
     color: white; /* Cambia el color del texto según sea necesario */
     font-size: 50px; /* Ajusta el tamaño de la fuente según sea necesario */
-    font-family: 'Cabin', sans-serif;
+    font-family: "Raleway", sans-serif;
   }
   
   .css-button-fully-rounded--red {
@@ -102,6 +102,21 @@
   font-family: 'Cabin', sans-serif;
 }
 
+
+/*DESCRIPTION PRODUCTS*/
+
+.imgProducts {
+  background-attachment: fixed;
+  background-image: url(/img/murals/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% center;
+  height: 80vh;
+}
+
+.descriptionProduct {
+  text-align: justify;
+}
 
 /*Medias queries*/
 
