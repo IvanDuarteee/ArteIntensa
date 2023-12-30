@@ -403,17 +403,32 @@ footer img:focus {
 /* About Us Pages */
 
 .aboutUsImage {
-  background-image: url(/img/enseñanza.jpg);
+  background-image: url(/img/photos/1.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   width: 100%;
-  height: 100vh;
 }
 
-.aboutUsText {
-  padding-top: 175px;
+.aboutUsContent {
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+  padding: 200px 200px 150px 150px;
+}
+
+.aboutUsContent a {
+  text-decoration: none;
+  color: #000;
+}
+
+.aboutUsContent a:hover, .aboutUsContent a:focus {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.aboutUsTitle {
+  font-weight: 600;
+  font-size: 64px;
 }
 
 /* Contact Us */
