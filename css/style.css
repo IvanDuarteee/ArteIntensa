@@ -416,6 +416,70 @@ footer img:focus {
   padding-top: 175px;
 }
 
+/* Contact Us */
+
+.contactUs {
+  font-family: 'Raleway', sans-serif;
+  padding: 150px 0px;
+}
+
+.contactInformation {
+  border: #3aa756 1px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.informationTitle {
+  background-color: #3aa756;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.formContent {
+  border: #e8453c 1px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.formTitle {
+  background-color: #e8453c;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.sendButton {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  background-color: #e8453c;
+  padding: 10px 40px;
+  border-radius: 3px;
+}
+
+.findUsContent {
+  border: #fabc2d 1px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.findUsTitle {
+  background-color: #fabc2d;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.reviewsContent {
+  border: #4578d1 1px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.reviewsTitle {
+  background-color: #4578d1;
+  border-radius: 10px 10px 0px 0px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
 /*Media Queries*/
 
 /* Media min- 320px and max 768 px */
