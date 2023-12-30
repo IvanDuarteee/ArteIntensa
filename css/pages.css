@@ -259,6 +259,7 @@
 }
 
 /*Paintings*/
+
 .image-containerPaint {
   position: relative;
 }
@@ -373,6 +374,173 @@
   scale: 1;
   height: 84vh;
 }
+
+/*Candles*/
+
+
+.image-containerCandles {
+  position: relative;
+}
+
+.image-containerCandles::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4578d1; /* Color deseado */
+  opacity: 0.; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+}
+
+
+.imgCarouselCandles {
+  background-color: #4578d1; /* Color deseado */
+  opacity: 0.2; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+    object-fit: cover;
+    height: 300px;
+}
+
+.imgCandlesOne {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesTwo {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/2/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesThree {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesFour {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesFive {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesSix {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/6/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesSeven {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/7/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesEight {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/8/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesNine {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/9/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesTeen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/10/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesEleven {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/11/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+ .imgCandlesTwelve{
+  background-attachment: fixed;
+  background-image: url(/img/Candles/12/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesThirteen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/13/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgCandlesFourteen {
+
+  background-attachment: fixed;
+  background-image: url(/img/Candles/14/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgCandlesFifteen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/15/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
 
 
 
