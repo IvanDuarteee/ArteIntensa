@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
 /*General Pages*/
 * {
     margin: 0;
@@ -16,6 +18,530 @@
 .catShop {
     height: 400px;
 }
+
+.image-container {
+    position: relative;
+  }
+
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3aa756; /* Color deseado */
+    opacity: 0.; /* Ajusta la opacidad según sea necesario */
+    z-index: 0; /* Coloca la capa de color detrás de la imagen */
+  }
+  
+  .title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cambia el color del texto según sea necesario */
+    font-size: 50px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-family: "Raleway", sans-serif;
+  }
+  
+.imgTitle {
+    height: 150px;
+    object-fit: cover;
+}
+
+.imgCarouselCat {
+  background-color: #3aa756; /* Color deseado */
+  opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+    object-fit: cover;
+    height: 300px;
+}
+
+.imgCat {
+  border: solid;
+  border-color: #d90429;
+}
+
+.contentCategories {
+  position: relative;
+  bottom: 80px;
+}
+
+
+
+
+
+/*DESCRIPTION PRODUCTS*/
+
+.contentProduct {
+  font-family: "Raleway", sans-serif;
+}
+
+/*Murals*/
+
+.imgMuralOne {
+  background-attachment: fixed;
+  background-image: url(/img/murals/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% center;
+  height: 84vh;
+}
+
+.imgMuralTwo {
+
+  background-attachment: fixed;
+  background-image: url(/img/murals/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgMuralThree {
+  background-attachment: fixed;
+  background-image: url(/img/murals/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+  
+}
+
+.imgMuralFour {
+  background-attachment: fixed;
+  background-image: url(/img/murals/2/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgMuralFive {
+  background-attachment: fixed;
+  background-image: url(/img/murals/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% center;
+  height: 84vh;
+}
+
+.descriptionProduct {
+  text-align: justify;
+}
+
+.btnFbProduct {
+  background-color: #2b0dad !important;
+}
+
+.btnIgProduct {
+  background-color: #710886 !important;
+}
+
+/*Ilustrations*/
+.image-containerIlus {
+  position: relative;
+}
+
+.image-containerIlus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d90429; /* Color deseado */
+  opacity: 0.; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+}
+
+
+.imgCarouselIlus {
+  background-color: #d90429; /* Color deseado */
+  opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+    object-fit: cover;
+    height: 300px;
+}
+
+/*IlustrationsIMG*/
+.imgIlusOne {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusTwo {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/2/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusThree {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusFour {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusFive {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusSix {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/6/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusSeven {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/7/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusEight {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/8/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusNine {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/9/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgIlusTeen {
+  background-attachment: fixed;
+  background-image: url(/img/ilustrations/10/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+/*Paintings*/
+
+.image-containerPaint {
+  position: relative;
+}
+
+.image-containerPaint::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fabc2d; /* Color deseado */
+  opacity: 0.; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+}
+
+
+.imgCarouselPaint {
+  background-color: #fabc2d; /* Color deseado */
+  opacity: 0.2; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+    object-fit: cover;
+    height: 300px;
+}
+
+.imgPaintOne {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintTwo {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/2/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintThree {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintFour {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintFive {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintSix {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/6/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintSeven {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/7/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintEight {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/8/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintNine {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/9/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgPaintTeen {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/10/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+/*Candles*/
+
+
+.image-containerCandles {
+  position: relative;
+}
+
+.image-containerCandles::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4578d1; /* Color deseado */
+  opacity: 0.; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+}
+
+
+.imgCarouselCandles {
+  background-color: #4578d1; /* Color deseado */
+  opacity: 0.2; /* Ajusta la opacidad según sea necesario */
+  z-index: 0; /* Coloca la capa de color detrás de la imagen */
+    object-fit: cover;
+    height: 300px;
+}
+
+.imgCandlesOne {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesTwo {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/2/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesThree {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesFour {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/4/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesFive {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesSix {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/6/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesSeven {
+  background-attachment: fixed;
+  background-image: url(/img/paintings/7/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesEight {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/8/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesNine {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/9/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesTeen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/10/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesEleven {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/11/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+ .imgCandlesTwelve{
+  background-attachment: fixed;
+  background-image: url(/img/Candles/12/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgCandlesThirteen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/13/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgCandlesFourteen {
+
+  background-attachment: fixed;
+  background-image: url(/img/Candles/14/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgCandlesFifteen {
+  background-attachment: fixed;
+  background-image: url(/img/Candles/15/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+
 
 
 
