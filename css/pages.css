@@ -105,14 +105,55 @@
   font-family: "Raleway", sans-serif;
 }
 
-.imgProducts {
+/*Murals*/
+
+.imgMuralOne {
   background-attachment: fixed;
   background-image: url(/img/murals/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
   background-position: 60% center;
-  height: 80vh;
+  height: 84vh;
+}
+
+.imgMuralTwo {
+
+  background-attachment: fixed;
+  background-image: url(/img/murals/1/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+}
+
+.imgMuralThree {
+  background-attachment: fixed;
+  background-image: url(/img/murals/3/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+
+  
+}
+
+.imgMuralFour {
+  background-attachment: fixed;
+  background-image: url(/img/murals/2/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1;
+  height: 84vh;
+}
+
+.imgMuralFive {
+  background-attachment: fixed;
+  background-image: url(/img/murals/5/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% center;
+  height: 84vh;
 }
 
 .descriptionProduct {
