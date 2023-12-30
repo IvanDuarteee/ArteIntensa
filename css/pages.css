@@ -97,25 +97,34 @@
 }
 
 
-.titleSubtle {
-  font-size: 50px; /* Ajusta el tamaño de la fuente según sea necesario */
-  font-family: 'Cabin', sans-serif;
-}
 
 
 /*DESCRIPTION PRODUCTS*/
+
+.contentProduct {
+  font-family: "Raleway", sans-serif;
+}
 
 .imgProducts {
   background-attachment: fixed;
   background-image: url(/img/murals/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% center;
+  scale: 1;
+  background-position: 60% center;
   height: 80vh;
 }
 
 .descriptionProduct {
   text-align: justify;
+}
+
+.btnFbProduct {
+  background-color: #2b0dad !important;
+}
+
+.btnIgProduct {
+  background-color: #710886 !important;
 }
 
 /*Medias queries*/
