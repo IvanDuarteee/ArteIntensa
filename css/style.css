@@ -113,14 +113,14 @@ footer img:focus {
 
 .pestañasMenu > li > a {
   text-decoration: none;
-  font-family: "raleway", sans serif;
+  font-family: "Raleway", sans-serif;
   font-size: 30px;
   color: #222;
 }
 
 .menuShop > li > a {
   text-decoration: none;
-  font-family: "raleway", sans serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bolder;
   color: #222;
@@ -134,19 +134,19 @@ footer img:focus {
 
 .menuShop > li > a.ilusShop:hover,
 .menuShop > li > a.ilusShop:focus {
-  color: #fabc2d;
+  color: #e8453c;
   transition: all 0.3s ease-in-out;
 }
 
 .menuShop > li > a.paintShop:hover,
 .menuShop > li > a.paintShop:focus {
-  color: #4578d1;
+  color: #fabc2d;
   transition: all 0.3s ease-in-out;
 }
 
 .menuShop > li > a.candlesShop:hover,
 .menuShop > li > a.candlesShop:focus {
-  color: #e8453c;
+  color: #4578d1;
   transition: all 0.3s ease-in-out;
 }
 
@@ -410,12 +410,11 @@ footer img:focus {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 84vh;
 }
 
 .aboutUsContent {
   font-family: 'Raleway', sans-serif;
-  line-height: 30px;
-  padding: 200px 200px 150px 150px;
 }
 
 .aboutUsContent a {
@@ -495,6 +494,27 @@ footer img:focus {
   border-radius: 10px 10px 0px 0px;
   color: #ffffff;
   letter-spacing: 3px;
+}
+
+.shopContent {
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+  padding: 200px 200px 150px 150px;
+}
+
+.shopContent a {
+  text-decoration: none;
+  color: #000;
+}
+
+.shopContent a:hover, .shopContent a:focus {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.shopTitle {
+  font-weight: 600;
+  font-size: 64px;
 }
 
 /*Media Queries*/

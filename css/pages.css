@@ -78,55 +78,86 @@
   font-family: "Raleway", sans-serif;
 }
 
+.contentProduct h2 {
+  font-weight: 600;
+  font-size: 64px;
+}
+
 /*Murals*/
 
 .imgMuralOne {
-  background-attachment: fixed;
   background-image: url(/img/murals/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 60% center;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgMuralTwo {
-
-  background-attachment: fixed;
   background-image: url(/img/murals/1/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 
 }
 
 .imgMuralThree {
-  background-attachment: fixed;
   background-image: url(/img/murals/3/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 
   
 }
 
 .imgMuralFour {
-  background-attachment: fixed;
   background-image: url(/img/murals/2/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgMuralFive {
-  background-attachment: fixed;
   background-image: url(/img/murals/5/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 60% center;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
+}
+
+.imgMuralSix {
+  background-image: url(/img/murals/6/2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.imgMuralSeven {
+  background-image: url(/img/murals/7/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.imgMuralEight {
+  background-image: url(/img/murals/8/5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.imgMuralNine {
+  background-image: url(/img/murals/9/1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
 .descriptionProduct {
