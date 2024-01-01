@@ -200,93 +200,83 @@
 
 /*IlustrationsIMG*/
 .imgIlusOne {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/1/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusTwo {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/2/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusThree {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/3/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusFour {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusFive {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/5/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusSix {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/6/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusSeven {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/7/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusEight {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/8/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgIlusNine {
-  background-attachment: fixed;
   background-image: url(/img/ilustrations/9/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
-.imgIlusTeen {
-  background-attachment: fixed;
+.imgIlusTen {
   background-image: url(/img/ilustrations/10/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 /*Paintings*/
@@ -317,93 +307,83 @@
 }
 
 .imgPaintOne {
-  background-attachment: fixed;
   background-image: url(/img/paintings/1/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintTwo {
-  background-attachment: fixed;
-  background-image: url(/img/paintings/2/1.png);
+  background-image: url(/img/paintings/2/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintThree {
-  background-attachment: fixed;
   background-image: url(/img/paintings/3/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintFour {
-  background-attachment: fixed;
   background-image: url(/img/paintings/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintFive {
-  background-attachment: fixed;
   background-image: url(/img/paintings/5/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintSix {
-  background-attachment: fixed;
   background-image: url(/img/paintings/6/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintSeven {
-  background-attachment: fixed;
   background-image: url(/img/paintings/7/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintEight {
-  background-attachment: fixed;
   background-image: url(/img/paintings/8/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintNine {
-  background-attachment: fixed;
   background-image: url(/img/paintings/9/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgPaintTeen {
-  background-attachment: fixed;
   background-image: url(/img/paintings/10/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 /*Candles*/
