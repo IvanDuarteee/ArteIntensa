@@ -415,141 +415,125 @@
 }
 
 .imgCandlesOne {
-  background-attachment: fixed;
   background-image: url(/img/Candles/1/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesTwo {
-  background-attachment: fixed;
-  background-image: url(/img/Candles/2/1.png);
+  background-image: url(/img/Candles/2/2.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesThree {
-  background-attachment: fixed;
-  background-image: url(/img/Candles/3/1.webp);
+  background-image: url(/img/Candles/3/3.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesFour {
-  background-attachment: fixed;
   background-image: url(/img/Candles/4/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesFive {
-  background-attachment: fixed;
   background-image: url(/img/Candles/5/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesSix {
-  background-attachment: fixed;
   background-image: url(/img/Candles/6/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesSeven {
-  background-attachment: fixed;
   background-image: url(/img/paintings/7/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesEight {
-  background-attachment: fixed;
   background-image: url(/img/Candles/8/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesNine {
-  background-attachment: fixed;
   background-image: url(/img/Candles/9/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesTeen {
-  background-attachment: fixed;
   background-image: url(/img/Candles/10/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesEleven {
-  background-attachment: fixed;
   background-image: url(/img/Candles/11/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
  .imgCandlesTwelve{
-  background-attachment: fixed;
   background-image: url(/img/Candles/12/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 .imgCandlesThirteen {
-  background-attachment: fixed;
   background-image: url(/img/Candles/13/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 
 }
 
 .imgCandlesFourteen {
-
-  background-attachment: fixed;
   background-image: url(/img/Candles/14/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 
 }
 
-.imgCandlesFifteen {
-  background-attachment: fixed;
+.imgCandlesFifteen {  
   background-image: url(/img/Candles/15/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  scale: 1;
-  height: 84vh;
+  background-position: center center;
+  height: 100vh;
 }
 
 
