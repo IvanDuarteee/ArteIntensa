@@ -1,13 +1,13 @@
- // Agrega autoplay a la barra de desplazamiento horizontal
- var scrollContainer = document.getElementById("horizontal-scroll");
- var scrollAmount = 1;
+$(document).ready(function() {
+  // Al hacer clic en una imagen del carrusel
+  $('.expandable-img').on('click', function() {
+    // Obtén la ruta de la imagen seleccionada
+    var imagePath = $(this).attr('src');
 
- setInterval(function() {
-   // Si hemos llegado al final, vuelve al principio
-   if (scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth) {
-     scrollContainer.scrollLeft = 0;
-   } else {
-     // De lo contrario, sigue desplazándote
-     scrollContainer.scrollLeft += scrollAmount;
-   }
- }, 60);
+    // Actualiza la imagen principal con la nueva imagen y aplica los estilos
+    $('.main-image')
+      .attr('src', imagePath)
+      .removeClass('h-75 object-fit-cover') // Elimina las clases para evitar conflictos
+      .addClass('h-75 object-fit-cover'); // Agrega las clases deseadas
+  });
+});

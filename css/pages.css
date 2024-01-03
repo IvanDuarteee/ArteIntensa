@@ -83,11 +83,17 @@
   font-size: 64px;
 }
 
+.productsCarousel {
+  margin-bottom: 120px;
+  
+}
+
 /*Carousel*/
 .scrollable-container {
   white-space: nowrap; /* Evita el retorno de línea */
   overflow-x: auto; /* Agrega la barra de desplazamiento horizontal */
   display: flex; /* Hace que los elementos hijos se muestren en una fila */
+  margin-bottom: px;
 }
 
 .scrollable-container img {
