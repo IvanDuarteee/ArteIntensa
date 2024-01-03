@@ -83,6 +83,45 @@
   font-size: 64px;
 }
 
+/*Carousel*/
+.scrollable-container {
+  white-space: nowrap; /* Evita el retorno de línea */
+  overflow-x: auto; /* Agrega la barra de desplazamiento horizontal */
+  display: flex; /* Hace que los elementos hijos se muestren en una fila */
+}
+
+.scrollable-container img {
+  max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
+  height: 300px;
+  width: 300px; /* Mantiene la proporción de aspecto de las imágenes */
+  margin-right: 10px; /* Añade un espacio entre las imágenes (puedes ajustar según sea necesario) */ 
+
+  }
+
+  .expandable-img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .expanded-img-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+
+
+
+
 /*Murals*/
 
 .imgMuralOne {
