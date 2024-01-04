@@ -83,25 +83,22 @@
   font-size: 64px;
 }
 
-.productsCarousel {
+/* .productsCarousel {
   margin-bottom: 120px;
-  
-}
+} */
 
 /*Carousel*/
 .scrollable-container {
   white-space: nowrap; /* Evita el retorno de línea */
   overflow-x: auto; /* Agrega la barra de desplazamiento horizontal */
   display: flex; /* Hace que los elementos hijos se muestren en una fila */
-  margin-bottom: px;
 }
 
 .scrollable-container img {
   max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
-  height: 300px;
+  height: 200px;
   width: 300px; /* Mantiene la proporción de aspecto de las imágenes */
   margin-right: 10px; /* Añade un espacio entre las imágenes (puedes ajustar según sea necesario) */ 
-
   }
 
   .expandable-img {
@@ -581,8 +578,13 @@
   height: 100vh;
 }
 
+/* Carousel Shop */
 
-
+.carouselShop img {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
 
 
 /*Medias queries*/
