@@ -60,7 +60,7 @@
 
 .imgCat {
   border: solid;
-  border-color: #d90429;
+  border-color: #e8453c;
 }
 
 .contentCategories {
@@ -206,13 +206,48 @@
   text-align: justify;
 }
 
-.btnFbProduct {
-  background-color: #2b0dad !important;
+.buttonPrincipality {
+  padding: 0.50rem 0.75rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: white;
+  fill: white;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
-.btnIgProduct {
-  background-color: #710886 !important;
+.btn-whatsapp {
+  background-color: #3aa756 !important;
 }
+
+.btn-whatsapp:hover, .btn-whatsapp:focus {
+  background-color: #2e8b45 !important;
+}
+
+.btn-email {
+  background-color: #fabc2d !important;
+}
+
+.btn-email:hover, .btn-email:focus {
+  background-color: #e1aa28 !important;
+}
+
+.btn-facebook {
+  background-color: #4578d1 !important;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+  background-color: #3c69b8 !important;
+}
+
+.btn-instagram {
+  background-color: #e8453c !important;
+}
+
+.btn-instagram:hover, .btn-instagram:focus {
+  background-color: #ce3b33 !important;
+}
+
 
 /*Ilustrations*/
 .image-containerIlus {
@@ -226,14 +261,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #d90429; /* Color deseado */
+  background-color: #e8453c; /* Color deseado */
   opacity: 0.; /* Ajusta la opacidad según sea necesario */
   z-index: 0; /* Coloca la capa de color detrás de la imagen */
 }
 
 
 .imgCarouselIlus {
-  background-color: #d90429; /* Color deseado */
+  background-color: #e8453c; /* Color deseado */
   opacity: 0.5; /* Ajusta la opacidad según sea necesario */
   z-index: 0; /* Coloca la capa de color detrás de la imagen */
     object-fit: cover;

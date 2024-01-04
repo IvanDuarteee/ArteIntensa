@@ -503,7 +503,7 @@ footer img:focus {
 }
 
 .shopContent a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
 }
 
@@ -515,6 +515,7 @@ footer img:focus {
 .shopTitle {
   font-weight: 600;
   font-size: 64px;
+  text-decoration: underline;
 }
 
 /*Media Queries*/
